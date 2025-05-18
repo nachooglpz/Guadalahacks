@@ -1,5 +1,8 @@
 import pandas as pd
 
+# Función que redimensiona a metros
+prueba = prueba.to_crs(epsg=32614)
+
 def calcular_ancho_camellon(df, parallel_links):
     resultados = []
     for item in parallel_links:
